@@ -1,0 +1,15 @@
+{
+  "name": "convert-crytpo",
+  "version": "1.0.0",
+  "description": "Convert Cryptocurrency to local currency",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rhotimee",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0",
+    "yargs": "^10.0.3"
+  }
+}
