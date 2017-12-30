@@ -10,7 +10,7 @@ const argv = yargs
     .argv;
 
 let command, countryCode;
-// let command2;
+
 let firstArg = argv._[0];
 let secondArg = argv._[1];
 
