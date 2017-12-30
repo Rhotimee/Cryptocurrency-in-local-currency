@@ -9,16 +9,28 @@ const argv = yargs
     .alias('help', 'h')
     .argv;
 
-let command;
+let command, countryCode;
 // let command2;
-let x = argv._[0];
+let firstArg = argv._[0];
+let secondArg = argv._[1];
 
-if (typeof x === 'string'){
-    command = x.toUpperCase();
-    // command2 = x.toLowerCase() ;
-} else {
-    command = ''+x;
-}
+let toVerify = (arg) => {
+    if (typeof arg === 'string'){
+        return arg.toUpperCase();
+    } else {
+        return command = ''+arg;
+    }
+};
+
+command = toVerify(firstArg);
+countryCode = toVerify(secondArg);
+
+// if (typeof x === 'string'){
+//     command = x.toUpperCase();
+//     // command2 = x.toLowerCase() ;
+// } else {
+//     command = ''+x;
+// }
 
 // let cryp = () => {
 //     return new Promise ((resolve, reject) => {
