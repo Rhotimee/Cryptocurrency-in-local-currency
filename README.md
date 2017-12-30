@@ -1,4 +1,4 @@
-# Cryptocurrency-in-local-local-currency
+# Cryptocurrency-in-local-currency
 This is a CLI script that converts any cryptocurrency to your local currency 
 The price for the crypto was fetched from CoinmarketCap and That for the local currency was fetched from currencylayer via their API's
 
