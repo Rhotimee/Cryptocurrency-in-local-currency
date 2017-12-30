@@ -18,7 +18,7 @@ let toVerify = (arg) => {
     if (typeof arg === 'string'){
         return arg.toUpperCase();
     } else {
-        return command = ''+arg;
+        return ''+arg;
     }
 };
 
