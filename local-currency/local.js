@@ -1,8 +1,9 @@
 const request = require('request');
 
 let getLocalCurrency = (realCode) => {
-    
+      
     return new Promise((resolve, reject) => {
+        
         request({
             url: `http://www.apilayer.net/api/live?access_key=a1c2abd1172003288d57872b5da731c4`,
             json: true
